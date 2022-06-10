@@ -1,46 +1,25 @@
 # design-challenge-1
 
-This template should help get you started developing with Vue 3 in Vite.
+This project borns to follow the frontend challenge by [zernonia](https://github.com/zernonia) that you can check [here](https://blog.zernonia.com/i-design-you-build-frontend-challenge-1)
 
-## Recommended IDE Setup
+The purpose is to build a page following the proposed design by using the tools you want.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
 
-## Type Support for `.vue` Imports in TS
+## Which technologies do I use?
+| Name | Details |
+|--------|----------|
+| ![Vue](https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg) | As main framework |
+| ![eslint](https://www.vectorlogo.zone/logos/eslint/eslint-icon.svg) | Analyze code to find problems |
+| ![CSS](https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg) | Cascading Style Sheets |
+| ![HTML5](https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg) | HyperText Markup Language |
+| <img src="https://raw.githubusercontent.com/gilbarbara/logos/80c549990a0f513dcbaf3c9eab6a1a620df76088/logos/vitejs.svg" width="70" height="70"> | Build tool |
+| <img src="https://raw.githubusercontent.com/manuelbieh/logo-file-icons/6a172ce5a46ecfafe5db7f2ec624f4602cde9b8e/icons/prettier.svg" width="70" height="70"> | Code formatter |
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## Running the project
+ 
+| Command | Details |
+| ------- | -------- |
+| `npm install` | Install every package needed to run the project |
+| `npm run dev` | Runs the code |
+| `npm run build` | Build app to production |
+| `npm run lint` | Find and fix problems in the code |
