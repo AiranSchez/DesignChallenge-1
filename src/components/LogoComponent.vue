@@ -1,13 +1,13 @@
 <script>
-  export default {};
+export default {};
 </script>
 
 <template>
-    <a href="#" class="logo">Xae</a>
+  <a href="#" class="logo">Xae</a>
 </template>
 
 <style>
-.logo{
+.logo {
   font-size: 4em;
   margin-left: 0.1em;
   font-weight: bold;

@@ -1,11 +1,11 @@
 <script>
-import Header from './components/Header.vue'
+import Header from "./components/HeaderComponent.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    Header
-  }
+    Header,
+  },
 };
 </script>
 
@@ -15,26 +15,28 @@ export default {
 </template>
 
 <style>
-@import './assets/base.css';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import "./assets/base.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 
-:root{
-    --white: #f9f9f9;
-    --black: #36383F;
-    --gray: #85888C;
+:root {
+  --white: #f9f9f9;
+  --black: #36383f;
+  --gray: #85888c;
 } /* variables*/
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
-  background: rgb(41,64,73);
-  background: linear-gradient(90deg, rgba(41,64,73,1) 0%, rgba(0,0,0,1) 100%);
+  background: rgb(41, 64, 73);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 64, 73, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   font-family: "Poppins", sans-serif;
 }
-
 </style>

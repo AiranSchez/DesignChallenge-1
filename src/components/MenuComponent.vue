@@ -1,5 +1,5 @@
 <script>
-  export default {};
+export default {};
 </script>
 
 <template>
@@ -14,27 +14,27 @@
 </template>
 
 <style>
-.nav{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    overflow: hidden;
+.nav {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
 }
-.menu a{
-    display: flex;
-    justify-content: center;
-    padding: 2em;
+.menu a {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
 }
 .menu li a {
   color: var(--white);
   font-size: 1em;
   font-weight: bold;
 }
-.menu a:hover{
-    background-color: var(--gray);
+.menu a:hover {
+  background-color: var(--gray);
 }
-.nav{
-    max-height: 0;
-    transition: max-height .5s ease-out;
+.nav {
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
 }
 </style>
