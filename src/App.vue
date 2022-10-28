@@ -18,7 +18,7 @@ export default {
 
 <style>
 @import "./assets/base.css";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
 
 :root {
   --white: #f9f9f9;

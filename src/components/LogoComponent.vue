@@ -9,7 +9,7 @@ export default {};
 <style>
 .logo {
   font-size: 4em;
-  margin-left: 0.1em;
+  margin-left: 0.4em;
   font-weight: bold;
 }
 </style>

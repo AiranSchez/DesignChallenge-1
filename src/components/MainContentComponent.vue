@@ -13,14 +13,14 @@ export default {};
 #content{
     color: var(--white);
     height: 60vh;
-    padding: 5%;
+    padding-left: 1.5em;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
 #title{
-    font-weight:bold;
+    font-weight:700;
     font-size: 50px;
     word-wrap: break-all;
     line-height: 100%;
@@ -28,7 +28,7 @@ export default {};
 }
 
 #sub-title{
-    font-weight:bold;
+    font-weight:100;
     color:var(--white);
 }
 </style>
