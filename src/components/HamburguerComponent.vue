@@ -16,11 +16,12 @@ export default {};
   padding: 40px 20px;
 }
 .hamb-line {
-  display: block;
   background: var(--white);
   height: 2px;
   position: relative;
-  width: 24px;
+  width: 16px;
+  display: flex;
+  justify-content: right;
 }
 .hamb-line::before,
 .hamb-line::after {
@@ -30,7 +31,7 @@ export default {};
   height: 100%;
   position: absolute;
   transition: all 0.2s ease-out;
-  width: 100%;
+  width: 24px;
 }
 .hamb-line::before {
   top: 5px;
