@@ -1,17 +1,19 @@
 <script>
 import Header from "./components/HeaderComponent.vue";
+import MainContent from "./components/MainContentComponent.vue";
 
 export default {
   name: "app",
   components: {
     Header,
+    MainContent
   },
 };
 </script>
 
 <template>
   <Header></Header>
-  <main></main>
+  <MainContent></MainContent>
 </template>
 
 <style>
@@ -22,6 +24,7 @@ export default {
   --white: #f9f9f9;
   --black: #36383f;
   --gray: #85888c;
+  min-width: 	320px;
 } /* variables*/
 
 * {
@@ -40,6 +43,6 @@ body {
   );
   background-position: 30%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 95vh, cover;
 }
 </style>
