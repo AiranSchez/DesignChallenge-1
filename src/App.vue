@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <Header />
+  <Header></Header>
   <main></main>
 </template>
 
@@ -32,11 +32,14 @@ export default {
 
 body {
   background: rgb(41, 64, 73);
-  background: linear-gradient(
+  font-family: "Poppins", sans-serif;
+  background-image: url('./assets/main-bg.png'), linear-gradient(
     90deg,
     rgba(41, 64, 73, 1) 0%,
     rgba(0, 0, 0, 1) 100%
   );
-  font-family: "Poppins", sans-serif;
+  background-position: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
